@@ -1,24 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pagina Principal</title>
+	<link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <header>
+	
+	<header>
+		<div>
+			<h1>Pagina principal</h1>
+		</div>
+	</header>
+	<nav>
+		<ul class="menu-horizontal">
+			<li>
+				<a href="#">Diseño</a>
+				<ul class="menu-vertical">
+					<li><a href="/adobep">Adobe PhotoShop</a></li>
+					<li><a href="/adobei">Adobe Illustrator</a></li>
+					<li><a href="/canvas">Canvas</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Desarrollo movil</a>
+				<ul class="menu-vertical">
+					<li><a href="/androids">Android Studio</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Desarrollo web</a>
+				<ul class="menu-vertical">
+					<li><a href="/html">HTML</a></li>
+					<li><a href="/cs">CSS</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Teoria Musical</a>
+				<ul class="menu-vertical">
+					<li><a href="/vozc">Voz y Canto</a></li>
+					<li><a href="/partituras">Partituras</a></li>
+				</ul>
+			</li>
 
-    </header>
-    <section>
+		</ul>
+	</nav>
+	<section>
+		<div class="endesarrollo">
+			<iframe src="https://giphy.com/embed/Pqf31C9P1AuIg" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		<h1>Sitio web en desarrollo</h1>
+		</div>
+	</section>
+	<footer>
+		<a class="foter" href="/MapaS">Mapa de sitio</a>
+		<div>
+			<iframe src="https://giphy.com/embed/oW7cXqaVmt5EKQ48FQ" width="48" height="48" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		</div>
+	</footer>
 
-    </section>
-    <aside>
-
-
-    </aside>
-    <footer>
-        
-    </footer>
 </body>
 </html>
